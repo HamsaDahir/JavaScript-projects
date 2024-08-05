@@ -1,0 +1,12 @@
+.js-green {
+  background-color: green;
+}
+
+.js-red {
+  background-color: red;
+}
+
+.js-blue {
+  background-color: rgb(red, green, blue);
+}
+

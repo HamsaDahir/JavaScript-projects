@@ -1,0 +1,53 @@
+body { 
+  background-color: #19172e;
+  
+}
+
+.conntainer {
+  
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 5px solid white;
+  padding: 60px;
+  margin-top: 190px;
+  height: 250px;
+  width: 160px;border-radius: 10px;
+  
+  
+}
+
+h2 {
+  color: black;
+  margin-left: 20px;
+  margin: 2px;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+h6 {
+  margin: 10px;
+  text-align: center;
+}
+
+
+.hex,.rgb,.hsl {
+  
+  width: 170px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.hex:hover,.rgb:hover,.hsl:hover {
+  background-color: black;
+  color: white;
+}
+
+input {text-align: center;
+  margin: auto;
+  width: 100px;
+  display: block;
+
+}

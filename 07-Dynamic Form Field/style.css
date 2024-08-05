@@ -1,0 +1,71 @@
+body {
+  background-color: #19172e;
+  color: white
+}
+
+h1 {
+  text-align: center;
+}
+
+.section {
+  width: 400px;
+  height: 300px;
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  color: white;
+}
+
+
+
+.first-div{
+  margin-left: 4%;
+  
+}
+
+
+
+.all-the-inputs {
+  
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  background: none;
+  width: 274px;
+  color: white;
+  color: white;
+
+}
+
+.all-the-inputs::placeholder {
+  color: white;
+}
+
+.button-container {
+  margin-left: 12%;
+  color: white;
+}
+
+.add {
+  padding: 10px 23px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  margin-right: 120px;
+  color: white;
+}
+
+.remove {
+  background-color: red;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+
+}

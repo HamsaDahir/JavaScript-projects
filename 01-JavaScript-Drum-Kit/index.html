@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <title>Drum Kit</title>
+</head>
+<body>
+  <section class="text-white text-center mt-10 text-4xl font-sans">
+    <h1> Drum Kit</h1>
+  </section>
+
+  <main>
+    <div class="flex flex-wrap justify-center">
+      <button data-animal-type="CLAP" onclick="let audio = new Audio(`sounds/clap.wav`)
+  audio.play();">A <span>CLAP</span></button>
+      <button onclick="let audio = new Audio(`sounds/hihat.wav`)
+  audio.play();">S <span>hihat</span></button>
+      <button onclick="let audio = new Audio(`sounds/kick.wav`)
+  audio.play();">D <span>KICK</span></button>
+      <button onclick="let audio = new Audio(`sounds/openhat.wav`)
+  audio.play();">F <span>OPENHAT</span></button>
+      <button onclick="let audio = new Audio(`sounds/boom.wav`)
+  audio.play();">G <span>BOOM</span></button>
+      <button onclick="let audio = new Audio(`sounds/ride.wav`)
+  audio.play();">H <span>RIDE</span></button>
+      <button onclick="let audio = new Audio(`sounds/snare.wav`)
+  audio.play();">G <span>SNAKE</span></button>
+      <button onclick="let audio = new Audio(`sounds/tom.wav`)
+  audio.play();">H <span>TOM</span></button>
+      <button onclick="let audio = new Audio(`sounds/tink.wav`)
+  audio.play();">H <span>TINK</span></button>
+      
+    </div>
+
+  </main>
+
+  <script type="module" src="drum-kit.js"></script>
+</body>
+</html>
