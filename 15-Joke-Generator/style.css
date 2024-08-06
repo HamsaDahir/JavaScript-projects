@@ -1,0 +1,40 @@
+body {
+  background-color: #19172e;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+section {
+  height: 90vh;
+  
+ 
+}
+
+.container {
+ 
+ max-width: 370px;
+ height: 180px;
+ margin: auto;
+ display: block;
+ align-items: center;
+ text-align: center;
+ background-color: rgba(255, 255, 255, 0.05);
+ border-radius: 10px;
+}
+
+.para-joke {
+  padding: 30px 50px;
+} 
+
+button {
+   background-color: rgb(107, 105, 105);
+   color: white;
+   padding: 10px 10px;
+   border: none;
+   border-radius: 18px;
+   position: static;
+}
