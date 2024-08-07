@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/hourglass.png">
+  <title>Countdown Timer</title>
+</head>
+<body>
+  <h1 class="countdown-label">Countdown Timer</h1>
+  <h3>Set your Timer</h3>
+
+  <section class="container">
+    <div class="headers-container">
+      <h4>Hours</h4>
+      <h4>Minutes</h4>
+      <h4>Seconds</h4>
+    </div>
+    <div class="time-container">
+      <input id="hour" min="0" max="99" type="number" value="0"></input>
+      <p>:</p>
+      <input id="minutes" min="0" max="59" type="number" value="0"></input>
+      <p>:</p>
+      <input id="seconds"  min="0" max="59" type="number" value="0"></input>
+    </div>
+    <button  class="start-button" id="js-start-button">Start</button>
+    
+    <button id="reset" class="btn">Reset</button>
+    <button id="pause" class="btn">Pause</button>
+  </section>
+  
+
+  <script src="main.js"></script>
+</body>
+</html>
