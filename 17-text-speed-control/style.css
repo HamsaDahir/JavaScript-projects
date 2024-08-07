@@ -1,0 +1,32 @@
+body {
+  background-color: #19172e;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+section {
+  max-width: 500px;
+ 
+  margin-left: 220px;
+  padding-bottom: 30px;
+  
+}
+
+p {
+  text-align: center;
+  margin: 0 0;
+}
+.continer {
+  display: flex;
+  column-gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 30px;
+  height: 10px;
+}
