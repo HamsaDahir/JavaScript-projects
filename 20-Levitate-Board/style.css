@@ -1,0 +1,44 @@
+body {
+  background-color: #19172e;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h1 {
+  
+  position: absolute;
+  top: 0;
+  padding-top: 5%;
+  margin-bottom: 20px;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+  
+}
+
+.square {
+  
+  background-color: #19172e;
+  box-shadow: 0 0 2px #ffffff;
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  transition: 2s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
