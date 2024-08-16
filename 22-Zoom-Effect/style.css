@@ -1,0 +1,21 @@
+body {
+  background-color: #19172e;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  
+  width: 500px;
+  height: 500px;
+  margin-left: 500px;
+}
+
+img {
+  object-fit: contain;
+}
