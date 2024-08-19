@@ -75,12 +75,20 @@ getTodos('luigi.json').then((data) => {
 
 const getTodos = async() => {
 
-  const response = await fetch('luigi.jsosn')
+  const response = await fetch('luigi.json')
   if (response.status !== 200) {
-    throw new Error('cannot fetch data')
+    throw new Error('cannot fetch data1')
   }
-  const data = await response.json()
-  return data
+  const data1 = await response.json()
+
+  const response2 = await fetch('mario.json')
+  if (response2.status !== 200) {
+    throw new Error('cannot fetch data2')
+  }
+  const data2 = await response2.json()
+
+
+  return data2
 };
 
 getTodos()
